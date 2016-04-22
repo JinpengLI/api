@@ -526,7 +526,7 @@ definitions:
         type: array
         items:
           type: string
-          enum: ["http", "https", "ftp", "sftp", "ftps", "scp", "webdav"]
+          enum: ["Processing", "Data", "Management", "Commercial",]
       defaultLimitListExecutions:
         type: integer
         format: int64
